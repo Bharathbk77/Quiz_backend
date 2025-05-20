@@ -1,0 +1,927 @@
+[
+  {
+    "technology": "html",
+    "questions": [
+      {
+        "id": 1,
+        "questionText": "What does HTML stand for?",
+        "options": [
+          { "id": 1, "text": "Hyper Text Markup Language" },
+          { "id": 2, "text": "Home Tool Markup Language" },
+          { "id": 3, "text": "Hyperlinks and Text Markup Language" },
+          { "id": 4, "text": "High-level Text Machine Language" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 2,
+        "questionText": "Which HTML element is used to define an important text?",
+        "options": [
+          { "id": 1, "text": "<important>" },
+          { "id": 2, "text": "<strong>" },
+          { "id": 3, "text": "<b>" },
+          { "id": 4, "text": "<imp>" }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 3,
+        "questionText": "Which HTML element is used to specify a header for a document or section?",
+        "options": [
+          { "id": 1, "text": "<header>" },
+          { "id": 2, "text": "<head>" },
+          { "id": 3, "text": "<h1>" },
+          { "id": 4, "text": "<top>" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 4,
+        "questionText": "What is the correct HTML element for inserting a line break?",
+        "options": [
+          { "id": 1, "text": "<lb>" },
+          { "id": 2, "text": "<break>" },
+          { "id": 3, "text": "<br>" },
+          { "id": 4, "text": "<newline>" }
+        ],
+        "correctOptionId": 3
+      },
+      {
+        "id": 5,
+        "questionText": "Which HTML attribute is used to define inline styles?",
+        "options": [
+          { "id": 1, "text": "class" },
+          { "id": 2, "text": "style" },
+          { "id": 3, "text": "font" },
+          { "id": 4, "text": "styles" }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 6,
+        "questionText": "Which HTML element defines the title of a document?",
+        "options": [
+          { "id": 1, "text": "<meta>" },
+          { "id": 2, "text": "<head>" },
+          { "id": 3, "text": "<title>" },
+          { "id": 4, "text": "<header>" }
+        ],
+        "correctOptionId": 3
+      },
+      {
+        "id": 7,
+        "questionText": "In HTML, which attribute is used to specify that an input field must be filled out?",
+        "options": [
+          { "id": 1, "text": "validate" },
+          { "id": 2, "text": "placeholder" },
+          { "id": 3, "text": "required" },
+          { "id": 4, "text": "important" }
+        ],
+        "correctOptionId": 3
+      },
+      {
+        "id": 8,
+        "questionText": "What is the correct HTML for creating a hyperlink?",
+        "options": [
+          { "id": 1, "text": "<a url=\"http://example.com\">Example</a>" },
+          { "id": 2, "text": "<a href=\"http://example.com\">Example</a>" },
+          { "id": 3, "text": "<hyperlink href=\"http://example.com\">Example</hyperlink>" },
+          { "id": 4, "text": "<link>http://example.com</link>" }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 9,
+        "questionText": "Which HTML element is used to define description data?",
+        "options": [
+          { "id": 1, "text": "<dd>" },
+          { "id": 2, "text": "<dl>" },
+          { "id": 3, "text": "<data>" },
+          { "id": 4, "text": "<desc>" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 10,
+        "questionText": "What is the correct HTML for making a checkbox?",
+        "options": [
+          { "id": 1, "text": "<check>" },
+          { "id": 2, "text": "<input type=\"check\">" },
+          { "id": 3, "text": "<checkbox>" },
+          { "id": 4, "text": "<input type=\"checkbox\">" }
+        ],
+        "correctOptionId": 4
+      }
+    ]
+  },
+  {
+    "technology": "css",
+    "questions": [
+      {
+        "id": 1,
+        "questionText": "What does CSS stand for?",
+        "options": [
+          { "id": 1, "text": "Computer Style Sheets" },
+          { "id": 2, "text": "Creative Style Sheets" },
+          { "id": 3, "text": "Cascading Style Sheets" },
+          { "id": 4, "text": "Colorful Style Sheets" }
+        ],
+        "correctOptionId": 3
+      },
+      {
+        "id": 2,
+        "questionText": "Which property is used to change the background color?",
+        "options": [
+          { "id": 1, "text": "bgcolor" },
+          { "id": 2, "text": "color" },
+          { "id": 3, "text": "background-color" },
+          { "id": 4, "text": "background" }
+        ],
+        "correctOptionId": 3
+      },
+      {
+        "id": 3,
+        "questionText": "Which CSS property controls the text size?",
+        "options": [
+          { "id": 1, "text": "text-size" },
+          { "id": 2, "text": "font-style" },
+          { "id": 3, "text": "font-size" },
+          { "id": 4, "text": "text-style" }
+        ],
+        "correctOptionId": 3
+      },
+      {
+        "id": 4,
+        "questionText": "How do you select an element with id 'demo'?",
+        "options": [
+          { "id": 1, "text": ".demo" },
+          { "id": 2, "text": "#demo" },
+          { "id": 3, "text": "*demo" },
+          { "id": 4, "text": "demo" }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 5,
+        "questionText": "Which property is used to change the font of an element?",
+        "options": [
+          { "id": 1, "text": "font-family" },
+          { "id": 2, "text": "font-style" },
+          { "id": 3, "text": "font-weight" },
+          { "id": 4, "text": "font-type" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 6,
+        "questionText": "How do you make each word in a text start with a capital letter?",
+        "options": [
+          { "id": 1, "text": "text-transform: capitalize" },
+          { "id": 2, "text": "transform: capitalize" },
+          { "id": 3, "text": "text-style: capitalize" },
+          { "id": 4, "text": "You can't do this with CSS" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 7,
+        "questionText": "Which property is used to specify the space between the characters in a text?",
+        "options": [
+          { "id": 1, "text": "character-spacing" },
+          { "id": 2, "text": "letter-spacing" },
+          { "id": 3, "text": "text-spacing" },
+          { "id": 4, "text": "space-between" }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 8,
+        "questionText": "What is the default value of the position property?",
+        "options": [
+          { "id": 1, "text": "relative" },
+          { "id": 2, "text": "fixed" },
+          { "id": 3, "text": "absolute" },
+          { "id": 4, "text": "static" }
+        ],
+        "correctOptionId": 4
+      },
+      {
+        "id": 9,
+        "questionText": "How do you select elements with class name 'test'?",
+        "options": [
+          { "id": 1, "text": "#test" },
+          { "id": 2, "text": ".test" },
+          { "id": 3, "text": "*test" },
+          { "id": 4, "text": "test" }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 10,
+        "questionText": "Which CSS property is used to control the element's transparency?",
+        "options": [
+          { "id": 1, "text": "opacity" },
+          { "id": 2, "text": "transparency" },
+          { "id": 3, "text": "visibility" },
+          { "id": 4, "text": "filter" }
+        ],
+        "correctOptionId": 1
+      }
+    ]
+  },
+  {
+    "technology": "javascript",
+    "questions": [
+      {
+        "id": 1,
+        "questionText": "Which company developed JavaScript?",
+        "options": [
+          { "id": 1, "text": "Microsoft" },
+          { "id": 2, "text": "Netscape" },
+          { "id": 3, "text": "Google" },
+          { "id": 4, "text": "Oracle" }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 2,
+        "questionText": "Inside which HTML element do we put the JavaScript?",
+        "options": [
+          { "id": 1, "text": "<js>" },
+          { "id": 2, "text": "<javascript>" },
+          { "id": 3, "text": "<script>" },
+          { "id": 4, "text": "<scripting>" }
+        ],
+        "correctOptionId": 3
+      },
+      {
+        "id": 3,
+        "questionText": "What is the correct JavaScript syntax to change the content of the HTML element with id 'demo'?",
+        "options": [
+          { "id": 1, "text": "document.getElementById('demo').innerHTML = 'Hello World!';" },
+          { "id": 2, "text": "document.getElement('demo').innerHTML = 'Hello World!';" },
+          { "id": 3, "text": "#demo.innerHTML = 'Hello World!';" },
+          { "id": 4, "text": "document.getElementByName('demo').innerHTML = 'Hello World!';" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 4,
+        "questionText": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+        "options": [
+          { "id": 1, "text": "<script href='xxx.js'>" },
+          { "id": 2, "text": "<script name='xxx.js'>" },
+          { "id": 3, "text": "<script src='xxx.js'>" },
+          { "id": 4, "text": "<script file='xxx.js'>" }
+        ],
+        "correctOptionId": 3
+      },
+      {
+        "id": 5,
+        "questionText": "How do you create a function in JavaScript?",
+        "options": [
+          { "id": 1, "text": "function myFunction()" },
+          { "id": 2, "text": "function:myFunction()" },
+          { "id": 3, "text": "function = myFunction()" },
+          { "id": 4, "text": "function => myFunction()" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 6,
+        "questionText": "How do you call a function named 'myFunction'?",
+        "options": [
+          { "id": 1, "text": "call myFunction()" },
+          { "id": 2, "text": "myFunction()" },
+          { "id": 3, "text": "call function myFunction()" },
+          { "id": 4, "text": "Call.myFunction()" }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 7,
+        "questionText": "How can you add a comment in JavaScript?",
+        "options": [
+          { "id": 1, "text": "<!--This is a comment-->" },
+          { "id": 2, "text": "'This is a comment" },
+          { "id": 3, "text": "//This is a comment" },
+          { "id": 4, "text": "#This is a comment" }
+        ],
+        "correctOptionId": 3
+      },
+      {
+        "id": 8,
+        "questionText": "What is the correct way to write a JavaScript array?",
+        "options": [
+          { "id": 1, "text": "var colors = (1:'red', 2:'green', 3:'blue')" },
+          { "id": 2, "text": "var colors = ['red', 'green', 'blue']" },
+          { "id": 3, "text": "var colors = 'red', 'green', 'blue'" },
+          { "id": 4, "text": "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')" }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 9,
+        "questionText": "How do you round the number 7.25, to the nearest integer?",
+        "options": [
+          { "id": 1, "text": "Math.rnd(7.25)" },
+          { "id": 2, "text": "round(7.25)" },
+          { "id": 3, "text": "Math.round(7.25)" },
+          { "id": 4, "text": "rnd(7.25)" }
+        ],
+        "correctOptionId": 3
+      },
+      {
+        "id": 10,
+        "questionText": "Which event occurs when the user clicks on an HTML element?",
+        "options": [
+          { "id": 1, "text": "onmouseover" },
+          { "id": 2, "text": "onchange" },
+          { "id": 3, "text": "onclick" },
+          { "id": 4, "text": "onmouseclick" }
+        ],
+        "correctOptionId": 3
+      }
+    ]
+  },
+  {
+    "technology": "angular",
+    "questions": [
+      {
+        "id": 1,
+        "questionText": "Which architecture pattern is used by Angular?",
+        "options": [
+          { "id": 1, "text": "MVC" },
+          { "id": 2, "text": "MVVM" },
+          { "id": 3, "text": "MVP" },
+          { "id": 4, "text": "Flux" }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 2,
+        "questionText": "What is the decorator used for defining a component in Angular?",
+        "options": [
+          { "id": 1, "text": "@Component" },
+          { "id": 2, "text": "@NgComponent" },
+          { "id": 3, "text": "@NgModule" },
+          { "id": 4, "text": "@Directive" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 3,
+        "questionText": "Which of the following is used for handling forms in Angular?",
+        "options": [
+          { "id": 1, "text": "NgForm" },
+          { "id": 2, "text": "FormControl" },
+          { "id": 3, "text": "ReactiveFormsModule" },
+          { "id": 4, "text": "All of the above" }
+        ],
+        "correctOptionId": 4
+      },
+      {
+        "id": 4,
+        "questionText": "What is the purpose of NgModule?",
+        "options": [
+          { "id": 1, "text": "To define a component" },
+          { "id": 2, "text": "To define a module" },
+          { "id": 3, "text": "To define a service" },
+          { "id": 4, "text": "To define a directive" }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 5,
+        "questionText": "Which directive is used for two-way data binding in Angular?",
+        "options": [
+          { "id": 1, "text": "ngModel" },
+          { "id": 2, "text": "ngBind" },
+          { "id": 3, "text": "ngFor" },
+          { "id": 4, "text": "ngIf" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 6,
+        "questionText": "What is the purpose of @Injectable decorator in Angular?",
+        "options": [
+          { "id": 1, "text": "To define a component" },
+          { "id": 2, "text": "To define a service" },
+          { "id": 3, "text": "To define a module" },
+          { "id": 4, "text": "To define a pipe" }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 7,
+        "questionText": "Which Angular feature is used for code splitting?",
+        "options": [
+          { "id": 1, "text": "Modules" },
+          { "id": 2, "text": "Components" },
+          { "id": 3, "text": "Services" },
+          { "id": 4, "text": "Directives" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 8,
+        "questionText": "What is the lifecycle hook that is called after Angular initializes all data-bound properties?",
+        "options": [
+          { "id": 1, "text": "ngOnInit" },
+          { "id": 2, "text": "ngAfterViewInit" },
+          { "id": 3, "text": "ngOnChanges" },
+          { "id": 4, "text": "ngAfterContentInit" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 9,
+        "questionText": "Which of the following is NOT a feature of Angular?",
+        "options": [
+          { "id": 1, "text": "Data Binding" },
+          { "id": 2, "text": "Dependency Injection" },
+          { "id": 3, "text": "Virtual DOM" },
+          { "id": 4, "text": "Directives" }
+        ],
+        "correctOptionId": 3
+      },
+      {
+        "id": 10,
+        "questionText": "What is the purpose of RouterOutlet in Angular?",
+        "options": [
+          { "id": 1, "text": "To define routes" },
+          { "id": 2, "text": "To activate routes" },
+          { "id": 3, "text": "To display the component for the current route" },
+          { "id": 4, "text": "To navigate between routes" }
+        ],
+        "correctOptionId": 3
+      }
+    ]
+  },
+  {
+    "technology": "react",
+    "questions": [
+      {
+        "id": 1,
+        "questionText": "What is JSX?",
+        "options": [
+          { "id": 1, "text": "JavaScript XML" },
+          { "id": 2, "text": "JSON XML" },
+          { "id": 3, "text": "Java Syntax Extension" },
+          { "id": 4, "text": "None of the above" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 2,
+        "questionText": "Which method is used to change state in React?",
+        "options": [
+          { "id": 1, "text": "this.state{}" },
+          { "id": 2, "text": "this.setState()" },
+          { "id": 3, "text": "this.changeState()" },
+          { "id": 4, "text": "this.modifyState()" }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 3,
+        "questionText": "What is the default port where webpack-dev-server runs?",
+        "options": [
+          { "id": 1, "text": "3000" },
+          { "id": 2, "text": "8080" },
+          { "id": 3, "text": "3030" },
+          { "id": 4, "text": "9000" }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 4,
+        "questionText": "What are the two ways to handle data in React?",
+        "options": [
+          { "id": 1, "text": "State & Props" },
+          { "id": 2, "text": "Services & Components" },
+          { "id": 3, "text": "State & Services" },
+          { "id": 4, "text": "Props & Components" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 5,
+        "questionText": "Which of the following is used in React.js to increase performance?",
+        "options": [
+          { "id": 1, "text": "Virtual DOM" },
+          { "id": 2, "text": "Original DOM" },
+          { "id": 3, "text": "Both A and B" },
+          { "id": 4, "text": "None of the above" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 6,
+        "questionText": "What is the use of refs in React?",
+        "options": [
+          { "id": 1, "text": "To access DOM nodes or React elements" },
+          { "id": 2, "text": "To bind the function" },
+          { "id": 3, "text": "To call a function" },
+          { "id": 4, "text": "To refer to a class" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 7,
+        "questionText": "What is the name of React.js Developer?",
+        "options": [
+          { "id": 1, "text": "Jordan Mike" },
+          { "id": 2, "text": "Jordan Walke" },
+          { "id": 3, "text": "Tim Lee" },
+          { "id": 4, "text": "Jordan Lee" }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 8,
+        "questionText": "Which of the following is true about React hooks?",
+        "options": [
+          { "id": 1, "text": "Hooks are functions that let you use state and lifecycle features from function components" },
+          { "id": 2, "text": "Hooks are available only in class components" },
+          { "id": 3, "text": "Hooks don't let you extract and reuse stateful logic" },
+          { "id": 4, "text": "None of the above" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 9,
+        "questionText": "What is a pure component in React?",
+        "options": [
+          { "id": 1, "text": "A component that has no state" },
+          { "id": 2, "text": "A component that implements shouldComponentUpdate() with a shallow prop and state comparison" },
+          { "id": 3, "text": "A component that has only render method" },
+          { "id": 4, "text": "None of the above" }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 10,
+        "questionText": "What is the correct lifecycle method order in mounting?",
+        "options": [
+          { "id": 1, "text": "constructor -> render -> componentDidMount" },
+          { "id": 2, "text": "constructor -> componentDidMount -> render" },
+          { "id": 3, "text": "render -> constructor -> componentDidMount" },
+          { "id": 4, "text": "componentDidMount -> constructor -> render" }
+        ],
+        "correctOptionId": 1
+      }
+    ]
+  },
+  {
+    "technology": "vue",
+    "questions": [
+      {
+        "id": 1,
+        "questionText": "Which directive is used for conditional rendering in Vue?",
+        "options": [
+          { "id": 1, "text": "v-show" },
+          { "id": 2, "text": "v-if" },
+          { "id": 3, "text": "v-else" },
+          { "id": 4, "text": "v-for" }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 2,
+        "questionText": "What is the Vue.js instance lifecycle hook that is called after the instance has been created?",
+        "options": [
+          { "id": 1, "text": "created" },
+          { "id": 2, "text": "beforeCreate" },
+          { "id": 3, "text": "mounted" },
+          { "id": 4, "text": "beforeMount" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 3,
+        "questionText": "How to loop through a list of items in Vue.js?",
+        "options": [
+          { "id": 1, "text": "v-for" },
+          { "id": 2, "text": "v-loop" },
+          { "id": 3, "text": "v-each" },
+          { "id": 4, "text": "v-repeat" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 4,
+        "questionText": "What is the shorthand for v-bind in Vue.js?",
+        "options": [
+          { "id": 1, "text": ":" },
+          { "id": 2, "text": "@" },
+          { "id": 3, "text": "#" },
+          { "id": 4, "text": "&" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 5,
+        "questionText": "What is the shorthand for v-on in Vue.js?",
+        "options": [
+          { "id": 1, "text": ":" },
+          { "id": 2, "text": "@" },
+          { "id": 3, "text": "#" },
+          { "id": 4, "text": "&" }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 6,
+        "questionText": "Which Vue.js hook is called after the component's DOM is mounted?",
+        "options": [
+          { "id": 1, "text": "beforeMount" },
+          { "id": 2, "text": "created" },
+          { "id": 3, "text": "mounted" },
+          { "id": 4, "text": "beforeCreate" }
+        ],
+        "correctOptionId": 3
+      },
+      {
+        "id": 7,
+        "questionText": "What is the Vue.js directive for two-way binding?",
+        "options": [
+          { "id": 1, "text": "v-model" },
+          { "id": 2, "text": "v-bind" },
+          { "id": 3, "text": "v-on" },
+          { "id": 4, "text": "v-two-way" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 8,
+        "questionText": "Which is NOT a Vue.js directive?",
+        "options": [
+          { "id": 1, "text": "v-if" },
+          { "id": 2, "text": "v-else" },
+          { "id": 3, "text": "v-repeat" },
+          { "id": 4, "text": "v-show" }
+        ],
+        "correctOptionId": 3
+      },
+      {
+        "id": 9,
+        "questionText": "What does Vue.js use to track changes in the DOM?",
+        "options": [
+          { "id": 1, "text": "Virtual DOM" },
+          { "id": 2, "text": "Shadow DOM" },
+          { "id": 3, "text": "Real DOM" },
+          { "id": 4, "text": "None of the above" }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 10,
+        "questionText": "What is Vuex used for?",
+        "options": [
+          { "id": 1, "text": "State management" },
+          { "id": 2, "text": "Routing" },
+          { "id": 3, "text": "DOM manipulation" },
+          { "id": 4, "text": "HTTP requests" }
+        ],
+        "correctOptionId": 1
+      }
+    ]
+  },
+  {
+    "technology": "scss",
+    "questions": [
+      {
+        "id": 1,
+        "questionText": "What is SCSS?",
+        "options": [
+          {
+            "id": 1,
+            "text": "Sassy CSS"
+          },
+          {
+            "id": 2,
+            "text": "Simple CSS"
+          },
+          {
+            "id": 3,
+            "text": "Stylish CSS"
+          },
+          {
+            "id": 4,
+            "text": "None of the above"
+          }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 2,
+        "questionText": "Which symbol is used for nesting in SCSS?",
+        "options": [
+          {
+            "id": 1,
+            "text": ">"
+          },
+          {
+            "id": 2,
+            "text": "&"
+          },
+          {
+            "id": 3,
+            "text": "+"
+          },
+          {
+            "id": 4,
+            "text": "@"
+          }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 3,
+        "questionText": "What is the file extension for SCSS?",
+        "options": [
+          {
+            "id": 1,
+            "text": ".css"
+          },
+          {
+            "id": 2,
+            "text": ".scss"
+          },
+          {
+            "id": 3,
+            "text": ".sass"
+          },
+          {
+            "id": 4,
+            "text": ".stylus"
+          }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 4,
+        "questionText": "Which of the following is NOT a feature of SCSS?",
+        "options": [
+          {
+            "id": 1,
+            "text": "Variables"
+          },
+          {
+            "id": 2,
+            "text": "Nesting"
+          },
+          {
+            "id": 3,
+            "text": "Mixins"
+          },
+          {
+            "id": 4,
+            "text": "DOM Manipulation"
+          }
+        ],
+        "correctOptionId": 4
+      },
+      {
+        "id": 5,
+        "questionText": "What is the correct way to define a variable in SCSS?",
+        "options": [
+          {
+            "id": 1,
+            "text": "$variable: value;"
+          },
+          {
+            "id": 2,
+            "text": "@variable: value;"
+          },
+          {
+            "id": 3,
+            "text": "var variable = value;"
+          },
+          {
+            "id": 4,
+            "text": "--variable: value;"
+          }
+        ],
+        "correctOptionId": 1
+      },
+      {
+        "id": 6,
+        "questionText": "What is the purpose of a mixin in SCSS?",
+        "options": [
+          {
+            "id": 1,
+            "text": "To define variables"
+          },
+          {
+            "id": 2,
+            "text": "To import external files"
+          },
+          {
+            "id": 3,
+            "text": "To reuse styles"
+          },
+          {
+            "id": 4,
+            "text": "To create animations"
+          }
+        ],
+        "correctOptionId": 3
+      },
+      {
+        "id": 7,
+        "questionText": "How do you import another SCSS file?",
+        "options": [
+          {
+            "id": 1,
+            "text": "@include 'filename';"
+          },
+          {
+            "id": 2,
+            "text": "@import 'filename';"
+          },
+          {
+            "id": 3,
+            "text": "@require 'filename';"
+          },
+          {
+            "id": 4,
+            "text": "@use 'filename';"
+          }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 8,
+        "questionText": "What does the following SCSS code do: @extend .class;",
+        "options": [
+          {
+            "id": 1,
+            "text": "Creates a new class"
+          },
+          {
+            "id": 2,
+            "text": "Imports another file"
+          },
+          {
+            "id": 3,
+            "text": "Inherits styles from another selector"
+          },
+          {
+            "id": 4,
+            "text": "Creates a variable"
+          }
+        ],
+        "correctOptionId": 3
+      },
+      {
+        "id": 9,
+        "questionText": "Which SCSS function would you use to lighten a color?",
+        "options": [
+          {
+            "id": 1,
+            "text": "brighten()"
+          },
+          {
+            "id": 2,
+            "text": "lighten()"
+          },
+          {
+            "id": 3,
+            "text": "lighter()"
+          },
+          {
+            "id": 4,
+            "text": "fade()"
+          }
+        ],
+        "correctOptionId": 2
+      },
+      {
+        "id": 10,
+        "questionText": "What is the main difference between SCSS and SASS?",
+        "options": [
+          {
+            "id": 1,
+            "text": "SCSS uses semicolons and braces, SASS uses indentation"
+          },
+          {
+            "id": 2,
+            "text": "SCSS supports variables, SASS doesn't"
+          },
+          {
+            "id": 3,
+            "text": "SCSS is newer than SASS"
+          },
+          {
+            "id": 4,
+            "text": "There is no difference"
+          }
+        ],
+        "correctOptionId": 1
+      }
+    ]
+  }
+]
